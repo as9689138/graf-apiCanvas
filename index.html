@@ -1,10 +1,57 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Canvas 2D</title>
+    <meta charset="UTF-8">
+    <title>Pruebas Canvas 2D</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body onload="draw()">
-    <canvas id="canvas"></canvas>
+<body>
+
+    <h1>Pruebas Canvas 2D</h1>
+
+    <div class="zona-pruebas">
+
+        <div class="prueba">
+            <h3>Cuadrado</h3>
+            <canvas id="canvasCuadrado" width="300" height="150"></canvas>
+        </div>
+
+        <div class="prueba">
+            <h3>Rectángulo</h3>
+            <canvas id="canvasRectangulo" width="150" height="150"></canvas>
+        </div>
+
+        <div class="prueba">
+            <h3>Triángulo</h3>
+            <canvas id="canvasTriangulo" width="100" height="100"></canvas>
+        </div>
+
+        <div class="prueba">
+            <h3>Happy Face</h3>
+            <canvas id="canvasCara" width="150" height="150"></canvas>
+        </div>
+
+        <div class="prueba">
+            <h3>Líneas</h3>
+            <canvas id="canvasLineas" width="150" height="150"></canvas>
+        </div>
+
+        <div class="prueba">
+            <h3>Arcos</h3>
+            <canvas id="canvasArcos" width="150" height="200"></canvas>
+        </div>
+
+        <div class="prueba">
+            <h3>Bézier</h3>
+            <canvas id="canvasCurvas" width="150" height="150"></canvas>
+        </div>
+
+        <div class="prueba">
+            <h3>Combinación</h3>
+            <canvas id="canvasCombinaciones" width="150" height="150"></canvas>
+        </div>
+
+    </div>
 
     <script src="main.js"></script>
 </body>
